@@ -1,25 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simson Game</title>
+
+    <title>Simon Says Game</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Simson Game</h1>
-    <h2>Press any Key to start</h2>
-    <div class="btns">
-        <div class="line1">
-         <div class="btn red"></div>
-        <div class="btn yellow"></div>
-        
+    <div class="container">
+        <h1>Simon Says Game</h1>
+        <h2>Press the button to start</h2>
+
+        <div class="btns">
+            <div class="btn red"></div>
+            <div class="btn yellow"></div>
+
+            <button class="start">Start</button>
+
+            <div class="btn green"></div>
+            <div class="btn blue"></div>
         </div>
-  <div class="line2">
-    <div class="btn green"></div>
-    <div class="btn blue"></div>
     </div>
+
+    <div class="score-container">
+        <div class="last">
+        <h3>Score: <span id="score">0</span></h3>
+        <h3>High Score: <span id="high-score">0</span></h3>
+        </div>
+        <button class="reset">Reset</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
