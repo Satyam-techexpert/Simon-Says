@@ -102,10 +102,15 @@ body{
     }
     
 }
-@media screen and (max-height: 768px){
+@media screen and (max-height: 500px){
      .container{
         height: fit-content;
     }
+    #info{
+    height: 20px;
+    width: 22px;
+    }
+
 }
 
 .reset{
@@ -131,6 +136,8 @@ body{
     right: 10px; 
     color: #ccc;
     background-color: black;
+    border: none;
+    border-radius: 50%;
 }
 #info-message {
     position: absolute;
